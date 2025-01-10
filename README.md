@@ -17,12 +17,6 @@ This project is an **Interactive Question & Answer Chatbot** built using **LangC
 
 Follow these steps to clone and set up the repository on your local machine.
 
-### 1️⃣ Clone the Repository
-Open your terminal or command prompt and run:
-```bash
-git clone https://github.com/your-username/interactive-qa-chatbot.git
-cd interactive-qa-chatbot
-```
 
 ### 2️⃣ Set Up a Python Environment
 It is recommended to create a Python virtual environment to manage dependencies:
