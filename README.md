@@ -18,7 +18,7 @@ This project is an **Interactive Question & Answer Chatbot** built using **LangC
 Follow these steps to clone and set up the repository on your local machine.
 
 
-### 2️⃣ Set Up a Python Environment
+### 1 Set Up a Python Environment
 It is recommended to create a Python virtual environment to manage dependencies:
 ```bash
 python -m venv venv
@@ -26,20 +26,20 @@ source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 ```
 
-### 3️⃣ Install Dependencies
+### 2  Install Dependencies
 Install the required Python dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Configure Environment Variables
+### 3 Configure Environment Variables
 Create a `.env` file in the project root directory and add the following variables:
 ```
 LANGCHAIN_API_KEY=<Your_LangChain_API_Key>
 ```
 Make sure to replace `<Your_LangChain_API_Key>` with your actual LangChain API key.
 
-### 5️⃣ Run the Streamlit App
+### 4 Run the Streamlit App
 Start the Streamlit server by running:
 ```bash
 streamlit run app.py
